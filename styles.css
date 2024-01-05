@@ -35,4 +35,14 @@ body{
 #facebook{
     animation-delay: 0.7s;
 }
-#git-hub  
+#github{
+    animation-delay: 0.1s;
+} 
+@keyframes animate{
+    from{
+        filter:hue-rotate(0deg);
+    }
+    to{
+        filter:hue-rotate(360deg);
+    }
+} 
